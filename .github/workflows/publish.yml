@@ -1,8 +1,7 @@
 name: Publish to Docker Hub
 
 env:
-  # Please replace this with your own image name
-  IMAGE_TITLE: echo
+  IMAGE_TITLE: webdev
 
 on:
   release:

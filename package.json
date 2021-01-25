@@ -1,12 +1,12 @@
 {
-  "name": "publish-docker-image",
+  "name": "webdev-docker-image",
   "private": true,
-  "version": "1.0.3",
-  "repository": "https://github.com/customcommander/publish-docker-image.git",
+  "version": "1.0.0",
+  "repository": "https://github.com/customcommander/webdev.git",
   "author": "customcommander <hello@spinjs.com>",
   "license": "MIT",
   "scripts": {
-    "build": "docker build --no-cache -t echo ."
+    "build": "docker build -t webdev ."
   },
   "dependencies": {},
   "devDependencies": {
