@@ -1,0 +1,17 @@
+{
+  "name": "publish-docker-image",
+  "private": true,
+  "version": "1.0.3",
+  "repository": "https://github.com/customcommander/publish-docker-image.git",
+  "author": "customcommander <hello@spinjs.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build --no-cache -t echo ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.3.7"
+  }
+}
