@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/customcommander/webdev/compare/v2.0.0...v2.1.0) (2021-01-30)
+
+
+### Features
+
+* add git completion and use bash instead of sh ([51ad4f4](https://github.com/customcommander/webdev/commit/51ad4f4360fc0cc426753844dd562fe338256952))
+
 # [2.0.0](https://github.com/customcommander/webdev/compare/v1.0.0...v2.0.0) (2021-01-26)
 
 
