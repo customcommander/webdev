@@ -1,5 +1,5 @@
 FROM node:14-alpine
-RUN apk add bash git make openjdk8-jre-base curl jq
+RUN apk add bash vim git make openjdk8-jre-base curl jq
 WORKDIR /tmp
 RUN curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 RUN mv git-completion.bash ~/
