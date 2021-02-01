@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/customcommander/webdev/compare/v2.1.0...v2.1.1) (2021-02-01)
+
+
+### Bug Fixes
+
+* add vim. fixes [#2](https://github.com/customcommander/webdev/issues/2) ([994ef28](https://github.com/customcommander/webdev/commit/994ef285ad07c3cd521d867247e4575a39abd000))
+
 # [2.1.0](https://github.com/customcommander/webdev/compare/v2.0.0...v2.1.0) (2021-01-30)
 
 
