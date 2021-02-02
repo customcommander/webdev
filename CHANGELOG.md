@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/customcommander/webdev/compare/v2.1.1...v2.2.0) (2021-02-02)
+
+
+### Features
+
+* add alias cc to invoke the google closure compiler ([f65051f](https://github.com/customcommander/webdev/commit/f65051f9bfba2ec9c36208d1f1a9148267234056))
+
 ## [2.1.1](https://github.com/customcommander/webdev/compare/v2.1.0...v2.1.1) (2021-02-01)
 
 
