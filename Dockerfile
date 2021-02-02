@@ -7,5 +7,6 @@ RUN echo ". ~/git-completion.bash" > ~/.bashrc
 WORKDIR /devtools/closure-compiler
 RUN curl -LJO https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20210106/closure-compiler-v20210106.jar
 RUN mv closure-compiler*.jar compiler.jar
+RUN echo 'alias cc="java -jar /devtools/closure-compiler/compiler.jar"' >> ~/.bashrc
 WORKDIR /workspaces/dev
 ENTRYPOINT ["bash"]
