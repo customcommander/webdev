@@ -9,6 +9,7 @@ My development environment in a Docker container.
 3. GNU Make 4.2.1
 4. jq master-v20191114-85-g260888d269
 5. Google Closure Compiler v20210106
+6. [ADR Tools][] v3.0.0
 
 ### Google Closure Compiler
 
@@ -19,3 +20,15 @@ $ cc --version
 Closure Compiler (http://github.com/google/closure-compiler)
 Version: v20210106
 ```
+
+### ADR Tools
+
+The `adr` program is in the PATH. Its bash completion script is available too.
+
+Please read [why][why-adr] you should consider keeping archicture decision records.
+
+
+
+
+[ADR Tools]: https://github.com/npryce/adr-tools
+[why-adr]: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
