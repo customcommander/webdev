@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/customcommander/webdev/compare/v2.3.0...v2.4.0) (2021-03-08)
+
+
+### Features
+
+* add plantuml. fixes [#5](https://github.com/customcommander/webdev/issues/5) ([74947a1](https://github.com/customcommander/webdev/commit/74947a165154c017caab3d94d34a4d6cf905df16))
+
 # [2.3.0](https://github.com/customcommander/webdev/compare/v2.2.0...v2.3.0) (2021-02-06)
 
 
