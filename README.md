@@ -10,6 +10,7 @@ My development environment in a Docker container.
 4. jq master-v20191114-85-g260888d269
 5. Google Closure Compiler v20210106
 6. [ADR Tools][] v3.0.0
+7. [PlantUML][] v1.2021.2
 
 ### Google Closure Compiler
 
@@ -27,8 +28,17 @@ The `adr` program is in the PATH. Its bash completion script is available too.
 
 Please read [why][why-adr] you should consider keeping archicture decision records.
 
+### PlantUML
 
+An alias `plantuml` is available in the path:
 
+```lang-shell
+$ plantuml example.puml
+example.png
+```
+
+See [PlantUML Language Reference Guide](http://plantuml.com/guide).
 
 [ADR Tools]: https://github.com/npryce/adr-tools
 [why-adr]: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+[PlantUML]: https://plantuml.com/
