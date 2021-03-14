@@ -12,6 +12,7 @@ My development environment in a Docker container.
 6. Google Closure Compiler v20210106
 7. [ADR Tools][] v3.0.0
 8. [PlantUML][] v1.2021.2
+9. [Madge][] v4.0.2
 
 ### Google Closure Compiler
 
@@ -40,6 +41,13 @@ example.png
 
 See [PlantUML Language Reference Guide](http://plantuml.com/guide).
 
+### Madge
+
+> Madge is a developer tool for generating a visual graph of your module dependencies, finding circular dependencies, and give you other useful info.
+
+See [Madge][] GitHub page.
+
 [ADR Tools]: https://github.com/npryce/adr-tools
 [why-adr]: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
 [PlantUML]: https://plantuml.com/
+[Madge]: https://github.com/pahen/madge
