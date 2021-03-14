@@ -1,6 +1,6 @@
 FROM node:14
 
-RUN apt-get update && apt-get install -y openjdk-8-jre vim jq
+RUN apt-get update && apt-get install -y openjdk-8-jre vim jq graphviz
 
 WORKDIR /tmp
 RUN curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
@@ -21,6 +21,10 @@ RUN curl -LJO https://github.com/npryce/adr-tools/archive/3.0.0.tar.gz
 RUN tar xfvz adr-tools-3.0.0.tar.gz
 RUN echo "PATH=\$PATH:/devtools/adr-tools-3.0.0/src" >> ~/.bashrc
 RUN echo "source /devtools/adr-tools-3.0.0/autocomplete/adr" >> ~/.bashrc
+
+WORKDIR /devtools/madge
+RUN yarn init -y && yarn add madge
+RUN echo 'alias madge="/devtools/madge/node_modules/.bin/madge"' >> ~/.bashrc
 
 WORKDIR /workspaces/dev
 ENTRYPOINT ["bash"]
