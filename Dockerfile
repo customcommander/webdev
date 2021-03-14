@@ -1,6 +1,6 @@
-FROM node:14-alpine
+FROM node:14
 
-RUN apk add bash vim git make openjdk8-jre curl jq
+RUN apt-get update && apt-get install -y openjdk-8-jre vim jq
 
 WORKDIR /tmp
 RUN curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
