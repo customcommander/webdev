@@ -4,13 +4,14 @@ My development environment in a Docker container.
 
 ## What's in the box?
 
-1. Node.js 14
-2. Git 2.24.3
-3. GNU Make 4.2.1
-4. jq master-v20191114-85-g260888d269
-5. Google Closure Compiler v20210106
-6. [ADR Tools][] v3.0.0
-7. [PlantUML][] v1.2021.2
+1. Node.js 14.16.0
+2. Yarn 1.22.5
+3. Git 2.11.0
+4. GNU Make 4.1
+5. jq 1.5-1-a5b5cbe
+6. Google Closure Compiler v20210106
+7. [ADR Tools][] v3.0.0
+8. [PlantUML][] v1.2021.2
 
 ### Google Closure Compiler
 
