@@ -1,7 +1,7 @@
 {
   "name": "webdev-docker-image",
   "private": true,
-  "version": "2.4.0",
+  "version": "3.0.0",
   "repository": "https://github.com/customcommander/webdev.git",
   "author": "customcommander <hello@spinjs.com>",
   "license": "MIT",

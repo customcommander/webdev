@@ -1,3 +1,20 @@
+# [3.0.0](https://github.com/customcommander/webdev/compare/v2.4.0...v3.0.0) (2021-03-14)
+
+
+### Features
+
+* add madge v4.0.2 ([03ecca1](https://github.com/customcommander/webdev/commit/03ecca160663814c3b596e3226b6aab41c124a4b))
+* change to debian-based base image ([e6bb8d2](https://github.com/customcommander/webdev/commit/e6bb8d2674bd64be05101f5801fa619a7a73ffe4))
+
+
+### BREAKING CHANGES
+
+* The following programs versions have changed:
+
+1. Git 2.24.3 -> 2.11.0
+2. GNU Make 4.2.1 -> 4.1
+3. jq master-v20191114-85-g260888d269 -> 1.5-1-a5b5cbe
+
 # [2.4.0](https://github.com/customcommander/webdev/compare/v2.3.0...v2.4.0) (2021-03-08)
 
 
