@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/customcommander/webdev/compare/v3.0.0...v3.1.0) (2021-10-08)
+
+
+### Features
+
+* upgrade to node v14.18, GCC, Madge and PlantUML ([b44897e](https://github.com/customcommander/webdev/commit/b44897e45230a2adcf0706e0b64e0413e68724f4))
+
 # [3.0.0](https://github.com/customcommander/webdev/compare/v2.4.0...v3.0.0) (2021-03-14)
 
 
